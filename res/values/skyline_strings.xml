@@ -29,4 +29,7 @@
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <string name="display_cutout_force_fullscreen_no_apps">No apps</string>
     <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes.</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
 </resources>
