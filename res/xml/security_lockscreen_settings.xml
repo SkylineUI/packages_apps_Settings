@@ -140,6 +140,10 @@
             android:summary="@string/doze_summary"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
+        <Preference
+            android:key="ambient_display_custom"
+            android:title="@string/advanced_settings" />
+
         <com.android.settings.custom.preference.RemotePreference
             android:key="doze_device_settings"
             android:title="@string/ambient_display_screen_title"
