@@ -16,6 +16,8 @@
 
 package com.android.settings.gestures;
 
+import static android.os.UserHandle.USER_CURRENT;
+
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.content.om.IOverlayManager;
@@ -55,6 +57,12 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
     private static final String LEFT_EDGE_SEEKBAR_KEY = "gesture_left_back_sensitivity";
     private static final String RIGHT_EDGE_SEEKBAR_KEY = "gesture_right_back_sensitivity";
+    private static final String GESTURE_BAR_LENGTH_KEY = "gesture_navbar_length";
+
+    private static final String LONG_OVERLAY_PKG = "com.custom.overlay.systemui.gestural.long";
+    private static final String MEDIUM_OVERLAY_PKG = "com.custom.overlay.systemui.gestural.medium";
+
+    private IOverlayManager mOverlayService;
 
     private static final String KEY_BACK_HEIGHT = "gesture_back_height";
     private static final String IMMERSIVE_NAV_KEY = "immersive_navigation";
@@ -82,7 +90,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         mIndicatorView = new BackGestureIndicatorView(getActivity());
         mWindowManager = (WindowManager) getActivity().getSystemService(Context.WINDOW_SERVICE);
         mOverlayService = IOverlayManager.Stub
-                               .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
+                .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
     }
 
     @Override
@@ -99,6 +107,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         initSeekBarPreference(RIGHT_EDGE_SEEKBAR_KEY);
         initSeekBarPreference(KEY_BACK_HEIGHT);
         initImmersiveSwitchPreference();
+        initSeekBarPreference(GESTURE_BAR_LENGTH_KEY);
     }
 
     @Override
@@ -153,6 +162,8 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
                 break;
             case KEY_BACK_HEIGHT:
                 settingsKey = Settings.System.BACK_GESTURE_HEIGHT;
+            case GESTURE_BAR_LENGTH_KEY:
+                settingsKey = Settings.Secure.GESTURE_NAVBAR_LENGTH;
                 break;
             default:
                 settingsKey = "";
@@ -180,14 +191,17 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
         // Find the closest value to initScale
         float minDistance = Float.MAX_VALUE;
-        int minDistanceIndex = -1;
-        for (int i = 0; i < mBackGestureInsetScales.length; i++) {
-            float d = Math.abs(mBackGestureInsetScales[i] - initScale);
-            if (d < minDistance) {
-                minDistance = d;
-                minDistanceIndex = i;
+        int minDistanceIndex = key == GESTURE_BAR_LENGTH_KEY ? (int) initScale : -1;
+        if (key != GESTURE_BAR_LENGTH_KEY) {
+            for (int i = 0; i < mBackGestureInsetScales.length; i++) {
+                float d = Math.abs(mBackGestureInsetScales[i] - initScale);
+                if (d < minDistance) {
+                    minDistance = d;
+                    minDistanceIndex = i;
+                }
             }
         }
+
         pref.setProgress(minDistanceIndex);
 
         pref.setOnPreferenceChangeListener((p, v) -> {
@@ -225,6 +239,37 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
             }
             return true;
         });
+        if (key != GESTURE_BAR_LENGTH_KEY) {
+        } else {
+            pref.setOnPreferenceChangeListener((p, v) -> {
+                switch((int) v) {
+                    case 0:
+                        try {
+                            mOverlayService.setEnabled(LONG_OVERLAY_PKG, false, USER_CURRENT);
+                            mOverlayService.setEnabled(MEDIUM_OVERLAY_PKG, false, USER_CURRENT);
+                        } catch (RemoteException re) {
+                            throw re.rethrowFromSystemServer();
+                        }
+                        break;
+                    case 1:
+                        try {
+                            mOverlayService.setEnabledExclusiveInCategory(MEDIUM_OVERLAY_PKG, USER_CURRENT);
+                        } catch (RemoteException re) {
+                            throw re.rethrowFromSystemServer();
+                        }
+                        break;
+                    case 2:
+                        try {
+                            mOverlayService.setEnabledExclusiveInCategory(LONG_OVERLAY_PKG, USER_CURRENT);
+                        } catch (RemoteException re) {
+                            throw re.rethrowFromSystemServer();
+                        }
+                        break;
+                }
+                Settings.Secure.putFloat(getContext().getContentResolver(), settingsKey, (int) v);
+                return true;
+            });
+        }
     }
 
      private void initImmersiveSwitchPreference() {
