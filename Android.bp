@@ -92,7 +92,7 @@ android_library {
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "Settings-change-ids",
-        "custom-preference",
+        "VendorSupport-Libs",
         "vendor.lineage.fastcharge-V1.0-java",
         "faceunlock_framework",
         "SettingsGoogle-lib",
