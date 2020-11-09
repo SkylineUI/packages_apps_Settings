@@ -106,4 +106,9 @@
     <!-- Game Space -->
     <string name="game_space_title">Game Space</string>
     <string name="game_space_summary">Enhance your gaming experience</string>
+
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Navigation bar</string>
+    <string name="immersive_navigation_title">Immersive Navigation</string>
+    <string name="immersive_navigation_summary">Hide the gesture pill and navigation bar padding.</string>
 </resources>
