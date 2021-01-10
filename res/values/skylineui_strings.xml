@@ -47,4 +47,9 @@
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Show Ambient</string>
     <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
 </resources>
