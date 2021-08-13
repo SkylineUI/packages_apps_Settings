@@ -77,4 +77,9 @@
     <string name="navbar_length">Gesture bar length</string>
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
+
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Pill length</string>
+    <string name="short_label">Short</string>
+    <string name="long_label">Long</string>
 </resources>
