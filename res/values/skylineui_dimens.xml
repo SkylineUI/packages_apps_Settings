@@ -21,4 +21,7 @@
      <dimen name="xd_toolbar_height">145dp</dimen>
      <dimen name="xd_toolbar_expanded_title_margin_start">21dp</dimen>
      <dimen name="xd_toolbar_expanded_title_margin_end">65dp</dimen>
+
+    <!-- Applications fragment -->
+    <dimen name="default_margin">16dp</dimen>
 </resources>
