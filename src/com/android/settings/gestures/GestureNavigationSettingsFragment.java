@@ -222,7 +222,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         mGestureNavbarLengthPreference.setContinuousUpdates(true);
         mGestureNavbarLengthPreference.setProgress(Settings.Secure.getIntForUser(
             resolver, Settings.Secure.GESTURE_NAVBAR_LENGTH_MODE,
-            0, UserHandle.USER_CURRENT));
+            1, UserHandle.USER_CURRENT));
         mGestureNavbarLengthPreference.setOnPreferenceChangeListener((p, v) ->
             Settings.Secure.putIntForUser(resolver, Settings.Secure.GESTURE_NAVBAR_LENGTH_MODE,
                 (Integer) v, UserHandle.USER_CURRENT));
