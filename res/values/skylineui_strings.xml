@@ -22,4 +22,8 @@
     <string name="skylineui_lab_title">SkylineUI Workstation</string>
     <string name="skylineui_lab_footer">Warning: These features are experimental and may have risks. Use them with caution.</string>
     <string name="skylineui_lab_summary">Experimental features</string>
+
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Colored icons</string>
+    <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in status bar</string>
 </resources>
