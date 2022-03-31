@@ -18,7 +18,7 @@
      <dimen name="xd_pref_card_horizontal_padding-negative">-16dp</dimen>
 
      <!-- xd. Toolbar --> 
-     <dimen name="xd_toolbar_height">225dp</dimen>
+     <dimen name="xd_toolbar_height">145dp</dimen>
      <dimen name="xd_toolbar_expanded_title_margin_start">21dp</dimen>
-     <dimen name="xd_toolbar_expanded_title_margin_end">75dp</dimen>
+     <dimen name="xd_toolbar_expanded_title_margin_end">65dp</dimen>
 </resources>
