@@ -214,5 +214,13 @@
             android:key="vr_display_pref"
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
+
+        <!-- Hidden apps -->
+        <Preference
+            android:key="hidden_apps"
+            android:title="@string/hidden_apps_title"
+            android:summary="@string/hidden_apps_summary"
+            android:persistent="false"
+            android:fragment="com.android.settings.display.HiddenAppSettingsFragment" />
     </PreferenceCategory>
 </PreferenceScreen>
