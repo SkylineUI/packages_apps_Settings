@@ -23,4 +23,11 @@
         android:title="@string/skylineui_lab_footer"
         android:selectable="false"
         settings:searchable="false"/>
+
+        <!-- Ignore secure window -->
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:title="@string/ignore_window_secure_title"
+        android:summary="@string/ignore_window_secure_summary"
+        android:defaultValue="false"/>
 </PreferenceScreen>
