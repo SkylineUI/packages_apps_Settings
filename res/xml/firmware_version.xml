@@ -21,6 +21,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- SkylineUI logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="skylineui_logo"
+        android:layout="@layout/skylineui_logo"
+        android:selectable="false"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
