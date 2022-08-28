@@ -67,4 +67,8 @@
     <string name="gesture_navbar_length_title">Pill length</string>
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
+
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
 </resources>
