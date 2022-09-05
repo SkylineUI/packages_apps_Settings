@@ -32,4 +32,9 @@
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
+    
+    <!-- Per-app volume control -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
 </resources>
