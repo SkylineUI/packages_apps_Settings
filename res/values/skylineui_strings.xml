@@ -51,4 +51,10 @@
     <string name="accent_background_summary">Choose a different accent color for background</string>
     <string name="bg_color_title">Background Color</string>
     <string name="bg_color_summary">Override default background accent color</string>
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+
 </resources>
