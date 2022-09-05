@@ -22,4 +22,10 @@
     <string name="skylineui_lab_title">SkylineUI Workstation</string>
     <string name="skylineui_lab_footer">Warning: These features are experimental and may have risks. Use them with caution.</string>
     <string name="skylineui_lab_summary">Experimental features</string>
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+
 </resources>
