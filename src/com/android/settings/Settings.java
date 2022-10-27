@@ -456,4 +456,9 @@ public class Settings extends SettingsActivity {
      * Activity for SkylineUI Workstation
      */
     public static class StartLabActivity extends SettingsActivity {}
+     /**
+     * Activity for PreviouslyConnectedDeviceDashboardFragment
+     */
+    public static class PreviouslyConnectedDevicesActivity extends SettingsActivity { /* empty */ }
+
 }
