@@ -3,4 +3,7 @@
     <!-- xdUI Base Layout -->
     <color name="homepage_blaze_background">#536dfe</color>
     <color name="xd_background1">@android:color/system_neutral1_50</color>
+
+    <!-- Whether to show custom screen resolution settings -->
+    <bool name="config_show_custom_screen_resolution_switch">true</bool>
 </resources>
