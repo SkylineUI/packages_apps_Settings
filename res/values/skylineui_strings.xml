@@ -47,4 +47,8 @@
     <string name="chroma_factor_summary">Higher values produce stronger colors</string>
     <string name="tint_background_title">Tint Background</string>
     <string name="tint_background_summary">Make Luminance and Chroma selection affect background colors as well</string>
+    <string name="accent_background_title">Accent background</string>
+    <string name="accent_background_summary">Choose a different accent color for background</string>
+    <string name="bg_color_title">Background Color</string>
+    <string name="bg_color_summary">Override default background accent color</string>
 </resources>
