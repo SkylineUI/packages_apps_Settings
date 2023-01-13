@@ -484,4 +484,9 @@ public class Settings extends SettingsActivity {
 
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
+
+    /**
+     * Activity for SkylineUI Workstation
+     */
+    public static class StartLabActivity extends SettingsActivity {}
 }

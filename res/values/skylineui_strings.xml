@@ -18,4 +18,8 @@
     <!-- SkylineUI Maintainer -->
     <string name="SkylineUI_maintainer">Maintainer</string>
 
+    <!-- SkylineUI Workstation -->
+    <string name="skylineui_lab_title">SkylineUI Lab</string>
+    <string name="skylineui_lab_footer">At your own risk if you use spoof</string>
+    <string name="skylineui_lab_summary">Features</string>
 </resources>
