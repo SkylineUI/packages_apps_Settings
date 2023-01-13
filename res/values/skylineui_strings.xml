@@ -18,4 +18,8 @@
     <!-- SkylineUI Maintainer -->
     <string name="SkylineUI_maintainer">Build made by</string>
 
+    <!-- SkylineUI Workstation -->
+    <string name="skylineui_lab_title">SkylineUI Workstation</string>
+    <string name="skylineui_lab_footer">Warning: These features are experimental and may have risks. Use them with caution.</string>
+    <string name="skylineui_lab_summary">Experimental features</string>
 </resources>
