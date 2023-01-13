@@ -22,6 +22,7 @@ import com.android.settings.IccLockSettings;
 import com.android.settings.MainClear;
 import com.android.settings.MainClearConfirm;
 import com.android.settings.Settings;
+import com.skylineui.settings.theme.ThemeSettings;
 import com.android.settings.TestingSettings;
 import com.android.settings.TetherSettings;
 import com.android.settings.TrustedCredentialsSettings;
@@ -351,7 +352,8 @@ public class SettingsGateway {
             TurnScreenOnSettings.class.getName(),
             TurnScreenOnDetails.class.getName(),
             LiveDisplaySettings.class.getName(),
-            WifiTetherClientManager.class.getName()
+            WifiTetherClientManager.class.getName(),
+            ThemeSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
