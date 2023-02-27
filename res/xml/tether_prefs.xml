@@ -49,7 +49,7 @@
         android:summary="@string/ethernet_tethering_subtext"
         settings:keywords="@string/keywords_hotspot_tethering" />
 
-    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+    <com.skylineui.support.preferences.SecureSettingSwitchPreference
         android:key="tethering_allow_vpn_upstreams"
         android:title="@string/tethering_allow_vpn_upstreams_title"
         android:summary="@string/tethering_allow_vpn_upstreams_summary"

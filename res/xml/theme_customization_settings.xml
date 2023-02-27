@@ -17,7 +17,7 @@
         settings:controller="com.android.settings.display.DarkUIPreferenceController"
         settings:keywords="@string/keywords_dark_ui_mode"/>
 
-    <com.skylineui.support.preference.SecureSettingSwitchPreference
+    <com.skylineui.support.preferences.SecureSettingSwitchPreference
         android:key="system_black_theme"
         android:title="@string/system_black_theme_title"
         android:summary="@string/system_black_theme_summary"

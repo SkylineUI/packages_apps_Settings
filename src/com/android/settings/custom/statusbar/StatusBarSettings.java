@@ -32,7 +32,7 @@ import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
-import com.android.settings.custom.preference.SystemSettingListPreference;
+import com.skylineui.support.preferences.SystemSettingListPreference;
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.util.custom.cutout.CutoutUtils;

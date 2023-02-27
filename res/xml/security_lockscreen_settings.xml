@@ -28,7 +28,7 @@
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_lock_screen_notif"/>
 
-        <com.android.settings.custom.preference.SecureSettingListPreference
+        <com.skylineui.support.preferences.SecureSettingListPreference
             android:key="face_unlock_method"
             android:title="@string/face_unlock_method_title"
             android:summary="%s"
@@ -56,7 +56,7 @@
             android:title="@string/owner_info_settings_title"
             android:summary="@string/owner_info_settings_summary" />
 
-        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        <com.skylineui.support.preferences.SecureSettingSwitchPreference
             android:key="lockscreen_media_metadata"
             android:title="@string/lockscreen_media_art_title"
             android:defaultValue="false" />
@@ -140,13 +140,13 @@
             android:summary="@string/doze_summary"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
-        <com.android.settings.custom.preference.RemotePreference
+        <com.skylineui.support.preferences.RemotePreference
             android:key="doze_device_settings"
             android:title="@string/ambient_display_screen_title"
             settings:requiresAction="org.lineageos.settings.device.DOZE_SETTINGS"
             settings:replacesKey="ambient_display_always_on|ambient_display_notification">
             <intent android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
-        </com.android.settings.custom.preference.RemotePreference>
+        </com.skylineui.support.preferences.RemotePreference>
 
     </PreferenceCategory>
 

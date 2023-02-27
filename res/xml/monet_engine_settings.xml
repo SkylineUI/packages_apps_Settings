@@ -18,19 +18,19 @@
     android:title="@string/monet_engine_settings_title">
 
     <!-- Accurate shades -->
-    <com.skylineui.support.preference.SecureSettingSwitchPreference
+    <com.skylineui.support.preferences.SecureSettingSwitchPreference
         android:key="monet_engine_accurate_shades"
         android:title="@string/accurate_shades_title"
         android:defaultValue="true" />
 
     <!-- Color override -->
-    <com.skylineui.support.preference.SecureSettingColorPickerPreference
+    <com.skylineui.support.preferences.SecureSettingColorPickerPreference
         android:key="monet_engine_color_override"
         android:title="@string/color_override_title"
         settings:controller="com.skylineui.settings.theme.MonetCustomColorPreferenceController" />
 
     <!-- Chroma factor -->
-    <com.skylineui.support.preference.CustomSeekBarPreference
+    <com.skylineui.support.preferences.CustomSeekBarPreference
         android:key="chroma_factor"
         android:title="@string/chroma_factor_title"
         android:defaultValue="100"
@@ -41,13 +41,13 @@
         settings:controller="com.skylineui.settings.theme.MonetChromaFactorPreferenceController" />
 
     <!-- Custom lightness scale -->
-    <com.skylineui.support.preference.SecureSettingSwitchPreference
+    <com.skylineui.support.preferences.SecureSettingSwitchPreference
         android:key="monet_engine_linear_lightness"
         android:title="@string/linear_lightness_title"
         android:defaultValue="0" />
 
     <!-- Brightness -->
-    <com.skylineui.support.preference.SecureSettingSeekBarPreference
+    <com.skylineui.support.preferences.SecureSettingSeekBarPreference
         android:key="monet_engine_white_luminance"
         android:title="@string/white_luminance_title"
         android:defaultValue="425"

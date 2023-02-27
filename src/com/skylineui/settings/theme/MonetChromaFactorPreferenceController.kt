@@ -23,7 +23,7 @@ import android.provider.Settings
 import androidx.preference.Preference
 
 import com.android.settings.core.BasePreferenceController
-import com.skylineui.support.preference.CustomSeekBarPreference
+import com.skylineui.support.preferences.CustomSeekBarPreference
 
 class MonetChromaFactorPreferenceController(
     context: Context,

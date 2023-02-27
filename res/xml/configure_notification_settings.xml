@@ -98,7 +98,7 @@
             android:summary="@string/lock_screen_notifs_redact_work_summary"
             settings:controller="com.android.settings.notification.RedactNotificationPreferenceController" />
 
-        <com.android.settings.custom.preference.SecureSettingListPreference
+        <com.skylineui.support.preferences.SecureSettingListPreference
             android:key="face_unlock_method"
             android:order="16"
             android:title="@string/face_unlock_method_title"
@@ -124,14 +124,14 @@
         android:key="advanced_section_header"
         android:title="@string/advanced_section_header">
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        <com.skylineui.support.preferences.SystemSettingSwitchPreference
             android:key="reticker_status"
             android:title="@string/reticker_title"
             android:summary="@string/reticker_summary"
             android:order="9"
             android:defaultValue="false" />
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        <com.skylineui.support.preferences.SystemSettingSwitchPreference
             android:dependency="reticker_status"
             android:key="reticker_colored"
             android:title="@string/reticker_colored_title"
@@ -192,7 +192,7 @@
             settings:controller="com.android.settings.notification.NotificationAssistantPreferenceController"/>
 
         <!-- Heads up -->
-        <com.android.settings.custom.preference.GlobalSettingSwitchPreference
+        <com.skylineui.support.preferences.GlobalSettingSwitchPreference
             android:key="heads_up_notifications_enabled"
             android:order="24"
             android:title="@string/heads_up_notifications_enabled_title"

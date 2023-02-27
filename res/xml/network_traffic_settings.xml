@@ -27,7 +27,7 @@
         android:summary="%s"
         android:persistent="false" />
 
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+    <com.skylineui.support.preferences.SystemSettingSwitchPreference
         android:key="network_traffic_autohide"
         android:title="@string/network_traffic_autohide"
         android:summary="@string/network_traffic_autohide_summary"

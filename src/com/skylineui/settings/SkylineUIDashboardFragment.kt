@@ -20,8 +20,8 @@ import androidx.preference.Preference
 
 import com.android.internal.logging.nano.MetricsProto
 import com.android.settings.dashboard.DashboardFragment
-import com.skylineui.support.fragment.ColorPickerFragment
-import com.skylineui.support.preference.ColorPickerPreference
+import com.skylineui.support.fragments.ColorPickerFragment
+import com.skylineui.support.preferences.ColorPickerPreference
 
 abstract class SkylineUIDashboardFragment : DashboardFragment() {
 

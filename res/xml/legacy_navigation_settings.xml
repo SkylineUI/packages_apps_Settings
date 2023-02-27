@@ -22,19 +22,19 @@
     android:key="gesture_navigation_settings_page"
     android:title="@string/navigation_bar_title">
 
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+    <com.skylineui.support.preferences.SystemSettingSwitchPreference
         android:key="navigation_bar_compact_layout"
         android:title="@string/navigation_bar_compact_layout_title"
         android:summary="@string/navigation_bar_compact_layout_summary"
         android:defaultValue="false" />
 
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+    <com.skylineui.support.preferences.SystemSettingSwitchPreference
         android:key="navigation_bar_menu_arrow_keys"
         android:title="@string/navigation_bar_arrow_keys_title"
         android:summary="@string/navigation_bar_arrow_keys_summary"
         android:defaultValue="false" />
 
-    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+    <com.skylineui.support.preferences.SecureSettingSwitchPreference
         android:key="sysui_nav_bar_inverse"
         android:title="@string/nav_bar_layout_inverse_title"
         android:summary="@string/nav_bar_layout_inverse_summary"
