@@ -91,4 +91,8 @@
     <string name="gesture_navbar_radius_title">Pill radius</string>
     <string name="thin_label">Thin</string>
     <string name="thick_label">Thick</string>
+
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
 </resources>
