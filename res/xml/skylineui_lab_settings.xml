@@ -39,4 +39,17 @@
         android:summary="@string/ignore_window_secure_summary"
         android:defaultValue="false"/>
 
+        <!--  Hide power menu on secure lockscreen -->
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="power_menu_hide_on_secure"
+        android:title="@string/power_menu_hide_on_secure_title"
+        android:summary="@string/power_menu_hide_on_secure_summary"
+        android:defaultValue="false" />
+
+        <!--  Black theme -->
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="system_black_theme"
+        android:title="@string/system_black_theme_title"
+        android:summary="@string/system_black_theme_summary"
+        android:defaultValue="false" />
 </PreferenceScreen>
