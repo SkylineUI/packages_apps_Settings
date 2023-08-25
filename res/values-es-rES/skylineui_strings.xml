@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 VoidUI Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- About device screen, SkylineUI Release Version -->
+    <string name="skylineui_release_version">Bienvenido a SkylineUI</string>
+    <!-- SkylineUI Maintainer -->
+    <string name="SkylineUI_maintainer">Build hecha por</string>
+    <!-- SkylineUI Workstation -->
+    <string name="skylineui_lab_title">Estación de trabajo SkylineUI</string>
+    <string name="skylineui_lab_footer">Advertencia: Estas características son experimentales y pueden tener riesgos. Utilícelas con precaución.</string>
+    <string name="skylineui_lab_summary">Funciones experimentales</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volumen de aplicación</string>
+    <string name="app_volume_title">Control de volumen por aplicación</string>
+    <string name="app_volume_summary">Permite establecer diferentes niveles de volumen para cada aplicación</string>
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Iconos coloreados</string>
+    <string name="statusbar_colored_icons_summary">Usar iconos de aplicación adecuados para los iconos de notificación en la barra de estado</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Apps ocultas</string>
+    <string name="hidden_apps_summary">Aplicaciones que deben ocultarse al lanzador. Requiere un reinicio del lanzador para que los cambios surtan efecto</string>
+    <!-- Fragment for hosting a selectable list of applications -->
+    <string name="search">Buscar</string>
+    <string name="search_apps">Buscar apps</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicaciones a pantalla completa</string>
+    <string name="display_cutout_force_fullscreen_summary">Obligar a las aplicaciones a ignorar el espacio del notch</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignorar bandera de ventana segura</string>
+    <string name="ignore_window_secure_summary">Eliminar captura de pantalla y límites de registro de pantalla para todas las aplicaciones. Esto puede ser conveniente en algunos casos, pero puede llevar a fugas de privacidad.</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Temperatura</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Siempre encendido al cargar</string>
+    <string name="doze_on_charge_summary">Mostrar pantalla doze todo el tiempo al cargar</string>
+    <!-- Wi-Fi Standard icon -->
+    <string name="show_wifi_standard_icon_title">Mostrar icono del tipo de Wi-Fi</string>
+    <string name="show_wifi_standard_icon_summary">Mostrar tipo de Wi-Fi en el indicador de señal Wi-Fi</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G Inteligente</string>
+    <string name="smart_5g_summary">Cambia automáticamente entre 5G y 4G para reducir el consumo de batería</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Reemplazar la notificación de cabecera con una versión delgada y menos invasiva del ticker rediseñado</string>
+    <string name="reticker_colored_title">Usar fondo de color de la aplicación</string>
+    <string name="reticker_colored_summary">Reemplazar el color de fondo del reTicker usando el color principal de la aplicación de notificación</string>
+    <!-- Vibration patterns -->
+    <string name="notification_vibration_pattern_title">Patrón de vibración de notificación</string>
+    <string name="ring_vibration_pattern_title">Patrón de vibración del tono</string>
+    <string name="pattern_default">Dispositivo predeterminado</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Ocultar menú de apagado en la pantalla de bloqueo</string>
+    <string name="power_menu_hide_on_secure_summary">Ocultar el menú de apagado en la pantalla de bloqueo segura</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Longitud de la píldora</string>
+    <string name="hide_label">Oculta</string>
+    <string name="long_label">Larga</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Radio de la píldora</string>
+    <string name="thin_label">Delgada</string>
+    <string name="thick_label">Gruesa</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Mostrar Ambiente</string>
+    <string name="doze_gesture_ambient_summary">Mostrar pantalla ambiente en lugar de despertar completamente la pantalla</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Pantalla ambiente</string>
+    <string name="doze_enabled_summary">Si habilitar la funcionalidad del paquete doze</string>
+    <!-- Fullscreen gestures -->
+    <string name="navbar_category">Barra de navegación</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Espacio de juego</string>
+    <string name="game_space_summary">Mejora tu experiencia de juego</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Barra de navegación</string>
+    <string name="immersive_navigation_title">Navegación Inmersiva</string>
+    <string name="immersive_navigation_summary">Ocultar la píldora de gestos y el relleno de barra de navegación.</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">Plataforma</string>
+    <string name="total_ram">RAM total</string>
+    <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">Mostrar 4G en lugar de LTE</string>
+    <string name="show_fourg_icon_summary">Reemplazar indicador LTE con 4G</string>
+    <!-- SkylineUI categories -->
+    <string name="icons_category">Iconos</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Indicador de roaming</string>
+    <string name="roaming_indicator_icon_summary">Mostrar indicador de itinerancia en el icono de señal cuando esté en modo itinerancia</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Mostrar icono de datos desactivados</string>
+    <string name="data_disabled_icon_summary">Mostrar el signo cruzado junto a la barra de señales cuando los datos están deshabilitados</string>
+</resources>
