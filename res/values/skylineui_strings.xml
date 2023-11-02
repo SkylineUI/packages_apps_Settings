@@ -22,4 +22,8 @@
     <string name="skylineui_lab_title">SkylineUI Workstation</string>
     <string name="skylineui_lab_footer">Warning: These features are experimental and may have risks. Use them with caution.</string>
     <string name="skylineui_lab_summary">Experimental features</string>
+
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use Black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
 </resources>
