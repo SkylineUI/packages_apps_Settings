@@ -297,7 +297,6 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
                 .addListener(videoCallingPreferenceController);
         use(ContactDiscoveryPreferenceController.class).init(getParentFragmentManager(), mSubId);
         use(NrAdvancedCallingPreferenceController.class).init(mSubId);
-        use(ForceLteCaPreferenceController.class).init(mSubId);
         use(Smart5gPreferenceController.class).init(mSubId);
         use(TransferEsimPreferenceController.class).init(mSubId, mSubscriptionInfoEntity);
         final ConvertToEsimPreferenceController convertToEsimPreferenceController =
