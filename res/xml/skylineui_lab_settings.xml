@@ -42,4 +42,10 @@
         android:title="@string/idle_manager_title"
         android:summary="@string/idle_manager_summary"
         android:defaultValue="false" />
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="notification_sound_vib_screen_on"
+        android:title="@string/notification_sound_vib_screen_on_title"
+        android:summary="@string/notification_sound_vib_screen_on_summary"
+        android:defaultValue="true" />
 </PreferenceScreen>

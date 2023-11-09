@@ -58,4 +58,8 @@
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">Unlock higher FPS in games</string>
     <string name="use_games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>
