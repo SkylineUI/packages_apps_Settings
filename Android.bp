@@ -105,6 +105,7 @@ android_library {
         "settings-telephony-protos-lite",
         "statslog-settings",
         "custom-preference",
+        "SystemUISharedLib",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
