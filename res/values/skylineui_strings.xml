@@ -22,4 +22,8 @@
     <string name="skylineui_lab_title">SkylineUI Lab</string>
     <string name="skylineui_lab_footer">At the moment the options have no sections :c</string>
     <string name="skylineui_lab_summary">Personalizations / Features</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Bluetooth battery status</string>
+    <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
 </resources>
